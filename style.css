@@ -32,7 +32,7 @@ div#myCarousel {
 
 .home-squares p {
     font-size: 16px;
-    margin-top: 15px;
+    min-height: 66px;
 }
 
 footer {
@@ -162,4 +162,75 @@ header img {
 
 .reset p {
     margin-bottom: 20px;
+}
+
+
+
+/* ============================================= @MEDIA TABLET ============================================= */
+
+@media only screen and (min-width: 600px) {
+
+.home-squares p {
+    font-size: 16px;
+    min-height: 44px;
+}
+
+.home-squares img {
+    width: 100%;
+    margin: 0;
+    float: none;
+    margin-bottom: 12px;
+}
+
+.reset p {
+    font-size: 13px;
+}
+
+.reset {
+    margin-top: 88px;
+}
+
+.cadastro {
+    margin-top: 88px;
+    margin-bottom: 74px;
+}
+
+.video iframe {
+    min-height: 382px;
+}
+
+}
+
+
+/* ============================================= @MEDIA DESKTOP ============================================= */
+
+@media only screen and (min-width: 1024px){
+
+.home-squares p {
+    font-size: 18px;
+}
+
+.contato {
+    margin-top: 50px;
+}
+
+.cadastro {
+    margin-top: 100px;
+    margin-bottom: 148px;
+}
+
+.reset {
+    margin-top: 100px;
+    margin-bottom: 160px;
+}
+
+.reset p {
+    font-size: 18px;
+}
+
+.notLog {
+    width: 800px;
+    margin: 0 auto;
+}
+
 }
