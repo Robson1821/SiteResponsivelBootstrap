@@ -206,6 +206,10 @@ header img {
 
 @media only screen and (min-width: 1024px){
 
+p {
+    font-size: 18px;
+}
+
 .home-squares p {
     font-size: 18px;
 }
@@ -231,6 +235,10 @@ header img {
 .notLog {
     width: 800px;
     margin: 0 auto;
+}
+
+.video iframe {
+    min-height: 708px;
 }
 
 }
