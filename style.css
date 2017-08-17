@@ -1,0 +1,165 @@
+.sr .revelar {
+    visibility: hidden;
+}
+
+body {
+	letter-spacing: 1px;
+	font-family: Roboto, Arial, sans-serif;
+    /*background-color: #DDD !important;*/
+}
+
+a {
+	color: #ff7b00 !important;
+}
+
+div#myCarousel {
+    margin-top: 68px;
+    margin-bottom: 20px;
+}
+
+.home-squares {
+    padding: 15px;
+    border-bottom: 1px solid #444342;
+}
+
+.home-squares img {
+    width: 33%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.home-squares p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #efeded;
+    text-align: center;
+    color: #888;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+footer a h1 {
+    color: #ff7f00;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 12px;
+    color: #ff7b00;
+}
+
+/* ============================================= NOTICIA ============================================= */
+
+.noticia {
+    margin-top: 55px;
+}
+
+.noticia h2 {
+    text-align: center;
+    color: #ff7f00;
+}
+
+/* ============================================= NOTICIA-SINGLE ============================================= */
+
+.not-single h2 {
+    color: #ff7f00;
+}
+
+header {
+    margin-top: 65px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    margin: 20px 0px;
+}
+
+.galleria {
+    width: 100%;
+    height: 400px;
+    background: #000;
+    margin-bottom: 20px;
+}
+
+
+/* ============================================= CONTATO ============================================= */
+
+.contato {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contato h2 {
+    padding: 10px;
+    text-align: center;
+    color: #ff7f00;
+}
+
+
+/* ============================================= CADASTRO ============================================= */
+
+.cadastro {
+    margin-top: 40px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.cadastro h2 {
+    padding: 10px;
+    color: #ff7f00;
+}
+
+.cadastro p {
+    margin-bottom: 25px;
+}
+
+
+/* ============================================= LOGIN ============================================= */
+
+.modal-backdrop.fade.in {
+    display: none;
+}
+
+.modal-body p {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.modal-body form {
+    margin-bottom: 10px;
+}
+
+
+/* ============================================= RESETE-PASS ============================================= */
+
+.reset {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.reset h2 {
+    padding: 10px;
+    color: #ff7f00;
+}
+
+.reset form {
+    margin-bottom: 20px;
+}
+
+.reset p {
+    margin-bottom: 20px;
+}
