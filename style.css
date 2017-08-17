@@ -165,6 +165,21 @@ header img {
 }
 
 
+/* ============================================= PÁGINA 404 ============================================= */
+
+.container.texto {
+    margin-top: 80%;
+    margin-left: -24%;
+}
+
+.container.texto p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #422202;
+    text-align: center;
+}
+
+
 
 /* ============================================= @MEDIA TABLET ============================================= */
 
@@ -197,6 +212,15 @@ header img {
 
 .video iframe {
     min-height: 382px;
+}
+
+.container.texto {
+    margin-top: 35%;
+    margin-left: -10%;
+}
+
+.container.texto p {
+    font-size: 18px;
 }
 
 }
@@ -239,6 +263,15 @@ p {
 
 .video iframe {
     min-height: 708px;
+}
+
+.container.texto {
+    margin-top: 24%;
+    margin-left: 0%;
+}
+
+.container.texto p {
+    font-size: 26px;
 }
 
 }
